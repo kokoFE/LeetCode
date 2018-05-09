@@ -28,7 +28,6 @@ var addTwoNumbers = function(l1, l2) {
     }
     plus = Math.floor(sum/10)
     arr.push(sum%10)
-    console.log(prev, next)
     l1 = l1 !== null ? l1.next : null;
     l2 = l2 !== null ? l2.next : null;
   }
