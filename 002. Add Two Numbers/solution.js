@@ -14,6 +14,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
+console.log('commit test')
 var addTwoNumbers = function(l1, l2) {
   let arr = []
   let plus = undefined
